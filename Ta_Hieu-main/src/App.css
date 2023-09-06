@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Averta Std CY"; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.header {
+  background-image: url(../public/images/slideimage-02.png);
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 10px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slick-prev:before {
+
+  background-color: #30a665;
+  opacity: 1 !important;
+  font-size: 45px !important;
+  z-index: 99999;
+  position: absolute;
+  right: -83px;
+  border-radius: 100%;
+  /* color: #30a665 !important; */
+
+}
+
+.slick-next:before {
+
+  background-color: #30a665;
+  opacity: 1 !important;
+  font-size: 45px !important;
+  z-index: 99999;
+  position: absolute;
+  left: -1280PX;
+  border-radius: 100%;
+}
+  
+
+
+.slick-prev,
+.slick-next {
+  top: 110% !important;
+}
+
+.phone {
+  font-size: 14px;
+  padding: 7px 20px;
+  border-radius: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-bottom {
+  margin-top: 20px;
+}
+
+.nav-header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.nav-header li {
+  list-style: none;
+  font-size: 18px;
+  margin-right: 25px;
+  border-top: 1px solid rgb(184, 176, 176);
+  padding: 10px 0 0 0;
+  cursor: pointer;
+  width: 187px;
+}
+
+/* .nav-header li:first-child {
+  border-top: 1px solid #fff;
+} */
+.nav-header li:first-child,
+.nav-header li:hover {
+  border-top: 1px solid #fff;
+}
+
+.nav-header li:hover {
+  border-top: 1px solid #fff;
+}
+
+.nav-li-muc {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  justify-content: space-between;
+}
+
+.nav-li-muc box-icon {
+  width: 21px;
+  height: 21px;
+}
+
+.detail-name {
+  width: 100%;
+  display: flex;
+}
+
+.main-name-slide {
+  display: flex;
+  flex-direction: column;
+  font-size: 75px;
+  padding: 10px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  text-stroke: 1px white;
+}
+
+.name-main {
+  margin-top: 50px;
+  width: 60%;
+}
+
+.detail-name-slide {
+  width: 40%;
+  margin-top: 350px;
+  margin-bottom: 100px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.gr {
+  display: flex;
+  gap: 17px;
+  color: green;
+}
+
+.gr p {
+  color: #fff;
+}
+
+.next-pr-slide {
+  width: 100%;
+  position: absolute;
+  top: 88%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.experience {
+  width: 159px;
+  height: 159px;
+  background-color: #4ca757;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.experience h1 {
+  font-size: 38px;
+}
+
+.experience p {
+  font-weight: 200;
+}
+
+.slide-image-01,
+.slide-image-02 {
+  width: 104px;
+  height: 104px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.slide-image-01 {
+  background-image: url(../public/images/slideimage-02.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.slide-image-02 {
+  background-image: url(../public/images/slideimage-01.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Todo: Start Slide */
+
+.slide-item-main {
+  padding: 0 12px;
+}
+.name-main-slide {
+  color: #30a665;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.name-slide {
+  font-size: 18px;
+}
+.slide-top {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.see-more {
+  padding: 10px 20px;
+  background-color: #30a665;
+  color: #fff;
+  width: fit-content;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.slide-item-main .csd {
+  color: #000 !important;
+}
+
+.ct {
+  color: #000;
+}
+
+.image-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.main-slide-content {
+  background-color: #30a665;
+  padding: 20px 15px 30px 15px;
+  color: #fff;
+}
+
+.sdc {
+  background-color: #fff;
+}
+
+.date-slide {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-content-slide {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.slide-bottom {
+  /* overflow-x: hidden; */
+}
+
+.see {
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Todo: End Slide */
